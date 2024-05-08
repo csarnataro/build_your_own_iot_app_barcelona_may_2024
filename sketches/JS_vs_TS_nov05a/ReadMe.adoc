@@ -1,0 +1,45 @@
+:Author: Christian Sarnataro
+:Email:
+:Date: 05/11/2023
+:Revision: 0.0.1
+:License: Public Domain
+
+= Project: JS vs TS
+
+A simple voting machine with two push buttons, ideally one for JavaScript votes 
+and one for TypeScript votes (hence the names of the variables declared
+in thingProperties.h)
+
+// IMAGE 1
+
+When either button is pressed, a value is pushed to Arduino Cloud and
+a counter is incremented. In addition, 2 percentages are updated.
+
+== Step 1: Installation
+Create a project on the Arduino Cloud.
+The Thing you create must have these variables:
+
+- float jsPercentage;
+- float tsPercentage;
+- int buttonPushCounterJS;
+- int buttonPushCounterTS;
+
+Add the code in this repo to the Sketch you just created online.
+
+== Step 2: Assemble the circuit
+
+This project uses an Arduino Nano RP2040. See the picture attached 
+
+// IMAGE 2
+
+== Step 3: Load the code
+
+Upload the code contained in this sketch on to your board
+
+
+=== License
+This project is released under a MIT License.
+
+=== Contributing
+To contribute to this project please open an issue on GitHub
+
