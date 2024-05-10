@@ -18,7 +18,7 @@ from secrets import CLOUD_PASSWORD
 # See https://docs.arduino.cc/micropython/basics/board-examples/#gpio-map for PIN numbers
 ONBOARD_LED = 6  # GPIO6 => PIN 13
 HUMIDITY_SENSOR_POWER = "D3"
-HUMIDITY_SENSOR_LEVEL_PIN = "A1"
+HUMIDITY_SENSOR_LEVEL_PIN = "A0"
 RED_LED_PIN = 46
 GREEN_LED_PIN = 0
 BLUE_LED_PIN = 45
